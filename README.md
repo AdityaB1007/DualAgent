@@ -29,7 +29,9 @@ Getting Started:
   
   3. Set Up Environment Variables:
    Create a .env file:
+
      OPENAI_API_KEY=your_openai_key
+
      TAVILY_API_KEY=your_tavily_key
   
   Make sure you have valid API keys for OpenAI and Tavily.
