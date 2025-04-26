@@ -1,4 +1,5 @@
-Research AI Assistant
+Agentic-WebCrawl
+
 An agentic research assistant that performs autonomous web-based research, drafts detailed answers, and fact-checks them using semantic search and summarization tools — powered by LangGraph, LangChain, FAISS, and OpenAI.
 
 Features
@@ -13,30 +14,6 @@ Features
 5. LangGraph Pipeline: Declarative multi-agent pipeline.
 
 6. Streamlit Frontend: Easy-to-use interface for entering queries and viewing results.
-
-Project Structure
-research-ai-assistant/
-│
-├── agents/
-│   ├── research_agent.py
-│   ├── answer_agent.py
-│   └── fact_checker_agent.py
-│
-├── memory/
-│   ├── faiss_store.py
-│   └── semantic_search.py
-│
-├── tools/
-│   └── summarizer.py
-│
-├── graph/
-│   └── langgraph_flow.py
-│
-├── streamlit_app.py
-├── main.py
-├── .env
-└── requirements.txt
-
 
 Getting Started
 1. Clone the Repository.
