@@ -73,7 +73,7 @@ Tech Stack:
 
 ___
 
-Known Issues / TODO:
+TODO:
 
  1. Add Retry mechanism if agent output parsing fails.
 
