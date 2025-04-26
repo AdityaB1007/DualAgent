@@ -2,7 +2,10 @@ TripleAgent
 
 An agentic research assistant that performs autonomous web-based research, drafts detailed answers, and fact-checks them using semantic search and summarization tools — powered by LangGraph, LangChain, FAISS, and OpenAI.
 
-Features
+___
+
+Features:
+
 1. Web Research Agent: Searches the web and gathers snippets using Tavily.
 
 2. Answer Drafting Agent: Drafts coherent answers based on gathered research.
@@ -14,76 +17,77 @@ Features
 5. LangGraph Pipeline: Declarative multi-agent pipeline.
 
 6. Streamlit Frontend: Easy-to-use interface for entering queries and viewing results.
+   
+___
 
-Getting Started
-1. Clone the Repository.
+Getting Started:
 
-2. Install Dependencies:
-  pip install -r requirements.txt
+  1. Clone the Repository.
+  
+  2. Install Dependencies:
+    pip install -r requirements.txt
+  
+  3. Set Up Environment Variables:
+    Create a .env file:
+  OPENAI_API_KEY=your_openai_key
+  TAVILY_API_KEY=your_tavily_key
+  
+  Make sure you have valid API keys for OpenAI and Tavily.
 
-3. Set Up Environment Variables:
-  Create a .env file:
-OPENAI_API_KEY=your_openai_key
-TAVILY_API_KEY=your_tavily_key
+___
 
-Make sure you have valid API keys for OpenAI and Tavily.
+Usage:
 
-Usage
-To run in Terminal (CLI mode):
-python main.py
+  To run in Terminal (CLI mode):
+  python main.py
+  
+  Enter your research question when prompted.
+  
+  To run in Streamlit Web App:
+  streamlit run streamlit_app.py
+  
+  Access your research assistant through a simple web interface.
 
-Enter your research question when prompted.
-
-To run in Streamlit Web App:
-streamlit run streamlit_app.py
-
-Access your research assistant through a simple web interface.
+___
 
 Example Flow:
 
-You enter a research query.
+1. You enter a research query.
+2. The Research Agent collects relevant web snippets.
+3. The Answer Agent drafts a detailed answer.
+4. The Fact-Checker Agent verifies and refines the answer.
+5. You receive the final verified answer along with research snippets and draft!
 
-The Research Agent collects relevant web snippets.
+___
 
-The Answer Agent drafts a detailed answer.
+Tech Stack:
 
-The Fact-Checker Agent verifies and refines the answer.
+  1. LangChain
+  2. LangGraph
+  3. OpenAI LLMs
+  4. Tavily Search
+  5. FAISS
+  6. Streamlit
 
-You receive the final verified answer along with research snippets and draft!
-
-Tech Stack
-
-LangChain
-
-LangGraph
-
-OpenAI LLMs
-
-Tavily Search
-
-FAISS
-
-Streamlit
-
+___
 
 Known Issues / TODO:
 
- Add Retry mechanism if agent output parsing fails.
+ 1. Add Retry mechanism if agent output parsing fails.
 
- Support Gemini, Claude, or other free LLMs.
+ 2. Support Gemini, Claude, or other free LLMs.
 
- Enhance Fact-Checking using RAG techniques.
+ 3. Enhance Fact-Checking using RAG techniques.
 
- Improve UI (progressive loading of steps).
+ 4. Improve UI (progressive loading of steps).
 
-
-Contribution
+___
 
 Contributions, issues, and feature requests are welcome!
-
 Open an issue to discuss major changes
-
 Fork the repository and submit a pull request 🚀
+
+___
 
 License
 This project is licensed under the MIT License.
