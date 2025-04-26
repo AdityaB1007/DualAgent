@@ -1,4 +1,4 @@
-Agentic-WebCrawl
+TripleAgent
 
 An agentic research assistant that performs autonomous web-based research, drafts detailed answers, and fact-checks them using semantic search and summarization tools — powered by LangGraph, LangChain, FAISS, and OpenAI.
 
