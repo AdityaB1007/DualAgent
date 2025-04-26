@@ -39,9 +39,7 @@ research-ai-assistant/
 
 
 Getting Started
-1. Clone the Repository:
-  git clone https://github.com/your-username/research-ai-assistant.git
-  cd research-ai-assistant
+1. Clone the Repository.
 
 2. Install Dependencies:
   pip install -r requirements.txt
